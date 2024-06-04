@@ -9,7 +9,7 @@ Docker for SNPE v1.52 Development
 + SNPE v1.52 files: You have to get this from Qualcomm page
 
 ## Setup Docker Container
-1. Load docker image: `tasks: Create snpe:v1.52 docker image`
+1. Create docker image: `tasks: Create snpe:v1.52 docker image`
 2. Extract thirdparty archives: `unzip android-ndk-r19c-linux-x86_64.zip` and `unzip snpe-1.52.0.zip`
 3. Get execute permission of SNPE tool binaries: `chmod +x snpe-1.52.0.2724/bin/envsetup.sh`
 4. Run docker image as a container: `tasks: Run snpe:v1.52 as a container`
